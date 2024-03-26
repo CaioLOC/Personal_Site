@@ -1,46 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;;
-}
-
-header {
-    position: fixed;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: rgba(2, 104, 115, 0.1);
-}
-
-.navbar {
-    display: flex;
-}
-
-nav li {
-    display: inline-block;
-    list-style: none;
-    padding: 0px 20px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
-
-nav li a:hover {
-    color: #3792A4;
-    transition: all 0.3s ease;
-}
-
-.sobre-mim {
-    background: url(assets/img/background.jpg) no-repeat;
+.about-me {
+    background: url(../assets/img/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -49,7 +8,7 @@ nav li a:hover {
 
 }
 
-.apresentacao {
+.presentation {
     padding: 200px 0 0 100px;
     width: 50%;
     display: flex;
@@ -66,7 +25,7 @@ nav li a:hover {
     gap: 1rem;
 }
 
-.sub-titulo {
+.subtitle {
     font-size: 2em;
     display: flex;
     gap: 0.5rem;
@@ -76,23 +35,18 @@ nav li a:hover {
     color: #3792A4;
 }
 
-.descricao {
+.description {
     letter-spacing: 0.1rem;
     font-size: 1.5em;
     width: 75%;
     padding-top: 30px;
 }
 
-h1 {
-    font-size: 4em;
-    text-transform: uppercase;
-}
-
-.span-botao {
+.span-button {
     padding-top: 40px;
 }
 
-.botao-saiba-mais {
+.button-learn-more {
     background-color: #14596B;
     width: fit-content;
     border-radius: 999rem;
@@ -103,7 +57,7 @@ h1 {
     letter-spacing: 0.1rem;
 }
 
-.botao-saiba-mais:hover {
+.button-learn-more:hover {
     background-color: #163138;
     cursor: pointer;
     transition: all 0.2s ease;

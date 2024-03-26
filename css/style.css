@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;;
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
