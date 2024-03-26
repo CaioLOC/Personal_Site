@@ -17,6 +17,11 @@
     
 }
 
+.about-me .presentation .banner h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
 .banner {
     color: white;
     display: flex;
@@ -70,4 +75,88 @@
     padding-top: 100px;
     padding-left: 50px;
     gap: 1rem;
+}
+
+.modal-fade {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.500);
+    z-index: 10;
+}
+
+.modal-window {
+    position: fixed;
+    width: 60%;
+    max-width: 90%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.close-modal {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #5E5E5E;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.close-modal:hover {
+    background-color: red;
+    transition: all 0.3s ease;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.education {
+    padding-bottom: 70px;
+}
+
+.professional-experience {
+    padding-bottom: 70px;
+}
+
+.languages {
+    padding-bottom: 70px;
+}
+
+.modal-fade.open{
+    display: flex;
+}
+
+@keyframes open-modal-animation {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, -5px);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.open .modal-window {
+    animation: open-modal-animation 0.5s;
 }
