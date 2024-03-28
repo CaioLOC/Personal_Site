@@ -1,0 +1,115 @@
+#portfolio {
+    background: url(../assets/img/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.portfolio-texts {
+    padding-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-title {
+    color: white;
+    font-size: 3em;
+}
+
+.portfolio-subtitle {
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.projects-cards {
+    padding-top: 10px;
+    width: 80%;
+    max-height: 40%;
+    /* background-color: red; */
+}
+
+.projects-cards ul {
+    display: flex;
+}
+
+.card-list {
+    padding-top: 1.2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-list li {
+    background-color: red;
+    list-style: none;
+    
+}
+
+.card-one {
+    width: 26%;
+}
+
+.card-one img {
+    width: 100%;
+    height: auto;
+}
+
+.card-one:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.card-two {
+    width: 26%;
+}
+
+.card-two img {
+    width: 100%;
+    height: auto;
+}
+
+.card-two:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.card-three {
+    width: 26%;
+}
+
+.card-three img {
+    width: 100%;
+    height: auto;
+}
+
+.card-three:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.span-portfolio-button-see-more {
+    padding-top: 100px;
+}
+
+.portfolio-button-see-more {
+    background-color: #14596B;
+    width: fit-content;
+    border-radius: 999rem;
+    padding: 1rem 1rem;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 0.1rem;
+}
+
+.portfolio-button-see-more:hover {
+    background-color: #163138;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
