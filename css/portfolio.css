@@ -1,5 +1,5 @@
 #portfolio {
-    background: url(../assets/img/background.jpg) no-repeat;
+    background: url(../assets/img/background-inverted.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -46,49 +46,21 @@
 }
 
 .card-list li {
-    background-color: red;
+    border-style: none;
     list-style: none;
-    
 }
 
-.card-one {
+.card {
     width: 26%;
+    transition: transform .3s;
 }
 
-.card-one img {
+.card img {
     width: 100%;
     height: auto;
 }
 
-.card-one:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s;
-}
-
-.card-two {
-    width: 26%;
-}
-
-.card-two img {
-    width: 100%;
-    height: auto;
-}
-
-.card-two:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s;
-}
-
-.card-three {
-    width: 26%;
-}
-
-.card-three img {
-    width: 100%;
-    height: auto;
-}
-
-.card-three:hover {
+.card:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
 }

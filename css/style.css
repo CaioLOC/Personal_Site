@@ -11,21 +11,19 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.element {
-    scrollbar-width: thin;
-    scrollbar-color: black transparent;
-  }
-  
-  .element::-webkit-scrollbar {
-    width: 3px;
-    height: 3px;
-  }
-  
-  .element::-webkit-scrollbar-track {
-    background: transparent;
-    padding: 2px;
-  }
-  
-  .element::-webkit-scrollbar-thumb {
-    background-color: #000;
-  }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #091e24;       
+   /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #174A57;   
+   /* color of the scroll thumb */
+  border-radius: 20px;      
+   /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  */
+}
