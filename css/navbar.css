@@ -1,7 +1,7 @@
 header {
     position: fixed;
     width: 100%;
-    padding: 20px;
+    padding: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +28,8 @@ nav li a {
 nav li a:hover {
     color: #3792A4;
     transition: all 0.3s ease;
+}
+
+nav ul{
+    margin: 0!important;
 }
